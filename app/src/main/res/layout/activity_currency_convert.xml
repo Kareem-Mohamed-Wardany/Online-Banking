@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+
+    <TextView
+        android:id="@+id/currenc"
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:text="Currency Convert"
+        android:textColor="#1689C9"
+        android:textSize="40sp"
+        android:transitionName="logo_text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="350sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="25sp"
+        android:src="@drawable/exchange" />
+    <TextView
+        android:id="@+id/textview99"
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="5sp"
+        android:text="Enter Currency in EGP :"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:transitionName="logo_text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <EditText
+        android:id="@+id/txt_curr"
+        android:layout_width="311dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="50sp"
+        android:background="@color/white"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="173dp" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:entries="@array/currency"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginLeft="45sp"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck"/>
+
+
+
+
+</LinearLayout>

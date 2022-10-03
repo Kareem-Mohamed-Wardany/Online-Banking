@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="130sp"
+        android:layout_height="200sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="25sp"
+        android:src="@drawable/edit" />
+    <TextView
+        android:id="@+id/textview99"
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="118sp"
+        android:layout_marginBottom="5sp"
+        android:text="Found Wrong data ?"
+        android:textColor="#F90000"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/emailBtn"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:text="Edit Email"
+        android:layout_marginLeft="125sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95sp"
+        android:layout_marginBottom="25sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/phoneBtn"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:text="Edit Phone"
+        android:layout_marginLeft="110sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/phoneTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95sp"
+        android:layout_marginBottom="25sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <Button
+        android:id="@+id/passwordBtn"
+        android:layout_width="153dp"
+        android:layout_height="56dp"
+        android:text="Edit Password"
+        android:layout_marginLeft="125sp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95sp"
+        android:layout_marginBottom="25sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="538dp" />
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:text="Submit"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="25sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="797dp" />
+</LinearLayout>

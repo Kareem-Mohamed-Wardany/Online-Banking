@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">OnlineBanking</string>
+    <string name="username">UserName</string>
+    <string name="balance">Balance</string>
+    <string name="weclome_to_continental_bank">Weclome to Continental Bank</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="currency_convertor">Currency Convertor</string>
+    <string name="Profile">Profile</string>
+    <string name="transactions">Transactions</string>
+    <string name="log_out">Log Out</string>
+    <string name="myemail">MyEmail</string>
+    <string name="age">Age:</string>
+    <string name="usernameaa">UserName:</string>
+    <string name="todo">TODO</string>
+    <string name="balanceaaa">Balance:</string>
+    <string name="phone">Phone:</string>
+    <string name="email">Email:</string>
+    <string name="myusername">MyUserName:</string>
+    <string name="myage">myAge:</string>
+    <string name="mybalance">mybalance</string>
+    <string name="mail">mail</string>
+    <string name="myphone">myphone</string>
+    <string name="mobile_number">Mobile Number</string>
+    <color name="withdrawBtnColor">#d6d8c6</color>
+    <color name="depositBtnColor">#d9dbce</color>
+    <string-array name="currency">
+        <item> USD</item>
+        <item> EUR</item>
+        <item> USD</item>
+        <item> JPY </item>
+        <item> INR </item>
+    </string-array>
+</resources>
